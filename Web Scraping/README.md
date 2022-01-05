@@ -1,3 +1,79 @@
 Project ini melakukan Web Scraping terhadap situs www.cleantechnica.com menggunakan Scrapy
 
-Project ini bertujuan untuk mengambil isi dari 10 berita terbaru.
+Project ini bertujuan untuk mengambil informasi dari 10 berita terbaru dengan output sebagai berikut:
+
+[
+   {
+      "title":"Rivian Reveal Exposes Enormous Financial Woes (Video)",
+      "contents":[
+         "What happened at Rivian Automotive this month? The electric vehicle company\u2019s US initial public offering (IPO) ",
+         " disclosed startling fiscal gaps:",
+         "The stark financial picture was revealed in filings to the Securities and Exchange Commission (SEC).",
+         "The huge losses and a stunning thirst for cash create a fascinating, if tenuous, backdrop to the company\u2019s highly anticipated IPO.",
+         "Rivian filed paperwork with regulators for an IPO in August; the company\u2019s trading symbol on the NASDAQ will be RIVN. Morgan Stanley, Goldman Sachs, and JP Morgan are the lead underwriters for the Rivian IPO.",
+         "Amazon has invested over $1.8 billion in the company and has a contract with Rivian to purchase 100,000 electric delivery vehicles in attempts to lower its transportation emissions. Rivian also has financial backing from Ford.",
+         "Rivian has not yet set terms for its offering, although ",
+         " suggests that the electric vehicle maker is aiming to raise between $5 billion and $8 billion and is seeking a valuation of about $80 billion in the listing, which is expected to land in late October or November. That cash influx will be directed to facilities and equipment through the end of 2023.",
+         "Rivian has a 2-track strategy:",
+         "The company manufactures an upscale all-electric R1T pickup truck, which was launched last month, and a sport utility vehicle, the R1S, which will hit the roads later this year. Both are designed to be driven off-road and will be produced at the company\u2019s main production facility in Normal, Illinois. The company employs 2,500 workers there and had a total work force of 6,274 employees in June, 2021.",
+         "The company slogan is \u201cKeep the world adventurous forever.\u201d",
+         "The company was ",
+         ", although Tesla, General Motors, and Ford have boasted about impending electric pickup truck additions to their catalogs. Rivian had about 48,390 preorders total for its R1T pickup trucks, which start at $67,500, and R1S SUVs in the US and Canada, which start at $70,000.",
+         "Rivian\u2019s IPO is part of a strategic move to become a lead player in the electric vehicle market, which is expected to grow exponentially over the next 2 decades. Tesla holds the top place in all-electric vehicle sales, having ",
+         " over ",
+         ", ",
+         ", ",
+         ", ",
+         ", ",
+         ", ",
+         ", and ",
+         " issues. It is the most highly valued and keenly observed automaker in the world.",
+         "Gaining and holding ground in the electric vehicle market is a really, really expensive business endeavor.",
+         "Like other electric vehicle companies such as Nikola and Lordstown Motors, Rivian has big losses because of significant costs to set up and run production lines at a time when it cannot balance losses with adequate sales. In the first half of the year, the company lost $994 million, compared with a $377 million loss in the same period last year, according to the IPO filing. In 2020, it lost $1.02 billion. It also borrowed $2.5 billion through \u201cconvertible promissory notes\u201d in July.",
+         "\u201cWe do not expect to be profitable for the foreseeable future as we invest in our business, build capacity, and ramp up operations,\u201d Rivian said in the filing, \u201cand we cannot assure you that we will ever achieve or be able to maintain profitability in the future.\u201d",
+         "Being the new kid on the block means that the Rivian systems and structures need to be refined. Tesla had a comparable introductory trajectory, having lost $56 million in 2009 before going public in 2010. The first fully profitable year for Tesla was 2020.",
+         "\u201cTesla has a more efficient supply chain,\u201d Wedbush analyst Dan Ives tells ",
+         " pointing to streamlined manufacturing at only 2 sites: Fremont, California and Shanghai, China. The China connection also provides Tesla with better access to sourcing chips. \u201cFord and GM among others have very complex supply chains, which put them in the eye of the storm,\u201d he explains.",
+         "On July 2, Tesla reported that, ",
+         ", the company produced and delivered over 200,000 vehicles. It complimented its teams for having transcended difficulties arising from the aftermath of the global covid-19 pandemic. \u201cOur teams have done an outstanding job navigating through global supply chain and logistics challenges,\u201d the company said in a statement then.",
+         "And, to top it off, Tesla ",
+         " during the third quarter of 2021, the company said Saturday. Today, Tesla\u2019s $777 billion value on the stock market is 10 times that of General Motors.",
+         "It\u2019s not just Rivian and the other new electric vehicle players who are struggling to make ends meet. Volkswagen\u2019s CEO Herbert Diess is worried that the ",
+         " and needs to implement big changes in its manufacturing facilities. \u201cWe have great responsibility for this location,\u201d Diess said. \u201cWe have to accept the new competition. We need the will to live and a jolt at this location.\u201d",
+         "Rivian is just one electric vehicle manufacturer that is bringing new models to market.",
+         "R. J. Scaringe, the Rivian founder, started the company in 2009 with the name \u201cMainstream Motors\u201d but changed it in 2011 to \u201cRivian,\u201d which is a m\u00e9lange of the words \u201cIndian River.\u201d That location in Florida, known for its citrus crops, held a fond place in Scaringe\u2019s mind due to many evocative afternoons he spent there on a rowboat as a young person.",
+         "Scaringe has promised to apply 1% of equity in its environmental program called \u201cForever,\u201d which has as its goal to mitigate the climate crisis by preserving remote lands and waterways.",
+         "Scaringe, with a Ph.D. from MIT in engineering, has been subdued about the company\u2019s prospects. His compensation was $1.3 million last year, according to the filing. Like many CEOs, his compensation will be commensurate with Rivian\u2019s stock performance.",
+         "In January, Rivian\u2019s board granted Mr. Scaringe 6,785,315 shares and a performance-based option to purchase up to 20,355,946 shares."
+      ],
+      "date":"2021-10-05",
+      "author":"Carolyn Fortuna",
+      "url":"https://cleantechnica.com/2021/10/05/rivian-reveal-exposes-enormous-financial-woes-video/"
+   },
+   {
+      "title":"DroneSeed CEO Grant Canary Talks About Path To Tree-Planting Megadrones (Interview)",
+      "contents":[
+         "This first part of the extended conversation with Grant Canary, CEO of DroneSeed, is mostly about how he and the company arrived at the point where they fly swarms of 8-foot diameter drones precision planting 60 pounds of carefully packaged seeds over multiple fire-scorched acres faster and sooner than other programs permit.",
+         "Canary\u2019s history involves education in LA, followed by Turin, Italy, followed by Bogota and rural regions of Colombia. It includes time spent growing insects for animal feed and working globally for the world\u2019s largest wind turbine manufacturer. And he recommends one of my favorite books, ",
+         " by Paolo Bacigalupi.",
+         "Sustainability is the thread that binds this diverse life together, along with things that have wings. A high-school teacher led Canary to climate change and environmentalism. Canary decided to devote his life to the highest orders of problems to work on. From his perspective, none of the people working on other major problems will have more time on the clock if we fail to address climate change.",
+         "His first degree was an undergraduate in sociology, but this didn\u2019t lead in an obvious direction. Canary went to Torino, Italy for a fascinating educational program at the Politecnico di Torino, Italy\u2019s oldest polytechnic school, one established in 1859. The program featured a week each with multiple scientists, stepping through every presentation that they\u2019d made in the mode of Socratic dialogue. Subjects included integrated aquaponics, recycling t-shirts, and bio-digester experiences from around the world. This led to Canary working hard to get into a good project, and JP Morgan was involved in major carbon credits efforts. Then the Colombian Las Gaviotas project called. It was a major reforestation program under way in areas formerly occupied by FARC guerrillas, but they wanted to turn the pilot into something scaled by a factor of 10. Canary worked on the economics of how much would it cost to put 20,000 people in the region for months, it was proposed, and then the president of the country rejected it as it would cost so much as to likely destabilize the economy.",
+         "Canary stayed in Colombia, finishing his MSc Engineering at Universidad de La Sabana, and founding a company. His Spanish wasn\u2019t strong, and he\u2019s still humble about it, but he finished an advanced degree with all lectures in Spanish.",
+         "His startup, Biosystems, spent three years learning how to effectively feed food waste from grocery stores and the like to black soldier flies, whose larval stage is high in proteins and fats, then cook them and turn it into animal feed. The insight was that a lot of oceanic calories was turned into fish meal for the process and their modeling suggested it could rise from $600 per ton to $2,500 per ton, making insect-based protein a commercially viable product. In fact, it did reach over $2,000 per ton. The firm stood up a factory with Vietnamese equipment and four research teams from the university, and published an influential blog of its findings and process. At one point, every major player in the industry was referencing Canary\u2019s blog and findings, leading to a Canadian firm, Enterra, eventually acquiring Biosystems.",
+         "After Canary\u2019s time integrating Biosystems into Enterra, he shifted gears and went differently global with Vestas. A three-day, zero-sum game hiring process was taxing, but he cleared the hurdle with 34 other hires into the program. They sent the new people all over the world on 8-month rotations. Canary started out in Portland, Oregon in the sales team, an easy slide into the program. The next stop, however, was Beijing under the VP of construction, where he was responsible for clearing out a storage yard with a massive collection of surplus unused wind turbine components, a legacy of the often challenging and incomplete key performance indicators of China\u2019s transformation. He was rotated out before the Olympics and its massive air clean up measures, so he experienced the full extent of China\u2019s coal-fired air quality programs, something he credits with giving him a head start on understanding the variance in climate impacts globally.",
+         "He was enthused about China\u2019s tree planting program, something covering an area size of France with over 38 billion trees by 2018. It had been started to reforest areas stripped of trees by Mao-era policies, and to assist in cleansing northern China\u2019s air. Canary considers it to be absolutely what the world needs, and as for its downsides of monoculture and other challenges, his mantra is \u201cDon\u2019t talk smack about anything people are doing to solve climate change.\u201d He thinks that the repurposing of 60,000 of China\u2019s army as tree planters is the kind of thing the US should be considering, with the National Guard and Army Corps of Engineers likely more useful as a climate change adaptation force than many of the things that they do today. His perspective includes not only China\u2019s Great Green Wall, but a similar project in Africa, and the Great Plains Shelter Belts during the Dust Bowl in the US in the 1930s, a Roosevelt initiative. And he\u2019s concerned that some of those lessons from the US\u2019 past are being lost as massive farming organizations maximize acreage at the expense of trees.",
+         "But despite running a tree planting company, and having worked on a massive tree planting program in Colombia for JP Morgan, Canary doesn\u2019t claim to be an expert on trees. In his words, DroneSeed, and hence Canary himself, are good at integrating the expertise of a lot of people from different areas. This includes military drone experts, people with PhDs in silviculture, people with masters degrees in post-fire ecology, people from the nursery sector, and of course people from the software sector. DroneSeed knits together a lot of expertise to put the right seeds in the right places with the right protection as quickly and efficiently as possible, and Canary defers to the experts in his organization.",
+         "The conversation shifted to how he decided on megadrones dropping seeds. ",
+         " is another book Canary recommends. He spent a bunch of time crafting ideas rapidly and putting them in front of people. Time after time he was shot down, and told not to waste the next five years of his life on the subject. Finally, there was the inevitable conversation with a friend in a bar where they told him that he was going to end up as a dirty hippy, planting trees.",
+         "A light bulb went off, and he started exploring the world of tree planting in the United States. Colombia had a much more developed program than any in the US, but the ground was flat. In Canada, it\u2019s students who plant trees. In the US, it\u2019s H1B visa entrants from south of the border. Tree planting wasn\u2019t an easily automatable process even a decade ago.",
+         "Early efforts involved dumping seeds from helicopters or bombing areas with one- to two-year-old seedlings dropped out of C17s, both of which involved massive wastage and lost seeds. As Canary asks, how do you prevent it from being a big squirrel buffet? Seed is a valuable resource, and there isn\u2019t enough of it. Fires are destroying trees faster than seedlings can be grown in the US right now. Canary talked to many technical innovators who had tried everything over the preceding decades, including a 1970s seedling machine gun prototype.",
+         "The problem statement that DroneSeed has solved is how to avoid shocks to the seeds or seedlings, how to avoid predation, how to get them in the right place, how to get them there quickly, and how to keep them from drying out. Hence, precision agriculture from drones.",
+         "And hence the first check from the a small group of angel VCs who shared Canary\u2019s vision.",
+         "In the second half of the discussion, Canary and I talk a lot more about the drones, the process and the challenges, along with the unique FAA certification DroneSeed has to fly swarms of 8\u2032 diameter hexacopters weighing over 100 pounds out of line-of-site of the two operators. Stay tuned."
+      ],
+      "date":"2021-10-05",
+      "author":"Michael Barnard",
+      "url":"https://cleantechnica.com/2021/10/05/droneseed-ceo-grant-canary-talks-about-path-to-tree-planting-megadrones-interview/"
+   },
+   {..},
+]
