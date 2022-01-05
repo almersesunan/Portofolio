@@ -1,5 +1,5 @@
 Project ini melakukan Web Scraping terhadap situs www.cleantechnica.com menggunakan Scrapy
 
-Project ini bertujuan untuk mengambil informasi dari 10 berita terbaru dengan output sebagai berikut:
+Project ini bertujuan untuk mengambil informasi dari 10 berita terbaru dengan sample output sebagai berikut:
 
-![cleantechnica_json_example](https://user-images.githubusercontent.com/80158731/148245757-8ac52036-2b10-41b1-9fd6-a28fac2deca3.png)
+![image](https://user-images.githubusercontent.com/80158731/148246034-143dcf69-f337-4c7e-be96-df2b7cfc0480.png)
