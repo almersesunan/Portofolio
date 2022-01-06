@@ -1,3 +1,3 @@
 Membuat database design menggunakan Entity Relationship Diagram (ERD) untuk kebutuhan database system pada universitas. Setelah itu mengimplementasikan DDL terhadap ERD yang telah dirancang.
 
-https://github.com/almersesunan/Portofolio/blob/main/Database%20Design%20(ERD%20&%20DDL)/ERD.png?raw=true
+![image](https://user-images.githubusercontent.com/80158731/148335042-86fa8aa6-bd77-4be0-b785-e5cac86bb26c.png)
