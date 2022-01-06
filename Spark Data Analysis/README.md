@@ -1,0 +1,1 @@
+Project ini bertujuan untuk melakukan filtering terhadap comment dari akun sosial media PT POS Indonesia di Twitter dan Instagram. Proses dilakukan dengan mengumpulkan comment dari setiap user untuk mendapatkan aspirasi/sentimen yang diberikan.
