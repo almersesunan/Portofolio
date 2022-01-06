@@ -7,3 +7,6 @@ Input:
 
 Output:
 ![image](https://user-images.githubusercontent.com/80158731/148333622-c14ac080-dc20-4f5b-b1a8-2f277e093d39.png)
+
+![image](https://user-images.githubusercontent.com/80158731/148333975-e2f45eb1-e6c3-4468-a031-365d7e1c2167.png)
+
