@@ -1,1 +1,1 @@
-Membangun Application Programming Interface (API) yang terkoneksi ke database menggunakan Flask dan PostgreSQL. Program ini dapat mengambil data dari database dan juga dapat menambahkan data baru kedalam database.
+Membangun Application Programming Interface (API) yang terkoneksi ke database menggunakan Flask dan PostgreSQL. Program ini dapat mengambil data dari database dan juga dapat menambahkan data baru kedalam database dengan format JSON.
