@@ -1,4 +1,4 @@
-###Olist Data Warehouse
+## Olist Data Warehouse
 
 1. Ingest CSV dataset "Brazilian E-Commerce Public Dataset by Olist" to MySQL using Python (Pandas, SQLAlchemy, MySQL Connector)
 
