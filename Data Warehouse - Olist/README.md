@@ -1,6 +1,8 @@
-Ingest CSV dataset "Brazilian E-Commerce Public Dataset by Olist" to MySQL using Python (Pandas, SQLAlchemy, MySQL Connector)
+#Olist Data Warehouse
 
-This DWH is using Snowflake Schema designed for logistic/delivery department which can be used to analyze and track all shipping activity like estimate products arrival time etc.
+1. Ingest CSV dataset "Brazilian E-Commerce Public Dataset by Olist" to MySQL using Python (Pandas, SQLAlchemy, MySQL Connector)
+
+2. DWH is using Snowflake Schema designed for logistic/delivery department which can be used to analyze and track all shipping activity like estimate products arrival time etc.
 
 ERD:
 
