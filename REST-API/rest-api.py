@@ -131,5 +131,6 @@ def api_order_onlyone(id):
         return jsonify({"message": "id tidak ditemukan!"})
 
 if __name__ == "__main__":
-    db.create_all()
+    with app.app_context():
+        db.create_all()
     app.run(debug=True)
